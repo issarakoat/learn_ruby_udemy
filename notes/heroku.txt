@@ -4,11 +4,14 @@ sudo snap install heroku --classic
 npm install -g heroku
 heroku create
 git remote -v
+
 git push heroku master
+git push heroku HEAD:master // use this one instead and it works
+
 heroku run rake db:migrate
  
 # if you want to connect to an existing heroku app
-heroku git:remote -a yourappnamegoeshere
+heroku git:remote -a ruby-gems1929
  
 # see logs
 heroku logs --tail
