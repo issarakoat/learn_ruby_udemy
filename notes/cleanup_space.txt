@@ -1,0 +1,3 @@
+#CLEAN UP SPACE
+docker image prune -a
+docker container prune --filter "until=24h"

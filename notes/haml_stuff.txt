@@ -1,0 +1,10 @@
+https://github.com/haml/haml-rails
+ 
+// Gemfile
+gem "haml-rails", "~> 2.0"
+ 
+// Console
+rails haml:erb2haml
+ 
+http://htmltohaml.com
+https://haml2erb.org

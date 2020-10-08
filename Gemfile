@@ -30,3 +30,8 @@ group :test do
 end
 
 
+gem "haml-rails", "~> 2.0" # HTML abstraction markup language
+gem 'bootstrap', '~> 4.4.1'
+gem 'jquery-rails'
+
+

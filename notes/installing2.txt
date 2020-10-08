@@ -25,6 +25,8 @@ config.hosts << "2b8c1faf3a934c25b7e01d446161bfff.vfs.cloud9.us-east-1.amazonaws
 # start server
 rails db:create 
 rails db:migrate
+rake db:create
+rake db:migrate
 # to run without depreciation warnings
 # RUBYOPT='-W:no-deprecated -W:no-experimental' rails server 
 rails s
