@@ -1,0 +1,28 @@
+TEXT: gem font-awesome-sass - add cool icons for styling
+https://github.com/yshmarov/corsego/commit/531e3409c99d1fac4bee8ee86ac0e75d8e883e65
+
+https://github.com/FortAwesome/font-awesome-sass
+
+https://fontawesome.com/icons
+https://github.com/FortAwesome/font-awesome-sass
+// Gemfile
+gem 'font-awesome-sass', '~> 5.12.0'
+ 
+// application.scss
+@import "font-awesome-sprockets";
+@import "font-awesome";
+ 
+.fa.fa-flag
+ 
+or a link
+= link_to root_path, class: 'btn btn-success' do
+  .fa.fa-flag
+  Homepage
+ERB example:
+
+<div class="fa fa-flag"></div>
+ 
+<%= link_to root_path, class: 'btn btn-success' do %>
+  <div class="fa fa-flag"></div>
+  Homepage
+<% end %>

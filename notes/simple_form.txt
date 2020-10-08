@@ -1,0 +1,24 @@
+TEXT: gem simple_form - better way to work with forms
+https://github.com/rormvp/corsego/commit/9a4030d685be9be896ed92ef86124a65672b30f8
+
+https://github.com/heartcombo/simple_form
+
+https://github.com/plataformatec/simple_form
+// Gemfile
+gem 'simple_form'
+ 
+// Console
+bundle install
+rails generate simple_form:install
+or
+rails generate simple_form:install --bootstrap
+ 
+// Any form can look something like
+= simple_form_for @course do |f|
+  = f.error_notification
+  = f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present?
+  = f.input :title
+  = f.label :description
+  = f.rich_text_area :description
+  /= f.submit 'Save'
+  = f.button :submit
