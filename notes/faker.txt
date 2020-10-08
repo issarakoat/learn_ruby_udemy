@@ -1,6 +1,15 @@
+https://github.com/faker-ruby/faker
+// Gemfile
+gem 'faker'
+ 
+// seeds.rb
 30.times do
   Course.create!([{
     title: Faker::Educator.course_name,
     description: Faker::TvShows::GameOfThrones.quote
   }])
 end
+ 
+// Console
+bundle
+rails db:seed

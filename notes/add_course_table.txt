@@ -1,0 +1,11 @@
+TEXT: add a Courses table
+https://github.com/rormvp/corsego/commit/79eefae10dc193bdd50c5f686fcf15cd5a300f28
+
+https://guides.rubyonrails.org/v3.2/getting_started.html#getting-up-and-running-quickly-with-scaffolding
+
+*Console*
+rails generate scaffold Course title:string description:text
+rake db:migrate
+// course.rb
+validates :title,  presence: true
+validates :description, presence: true, length: { :minimum => 5 }

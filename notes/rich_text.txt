@@ -1,0 +1,27 @@
+https://edgeguides.rubyonrails.org/action_text_overview.html
+ 
+// Console
+rails action_text:install
+ 
+// application.js
+require("trix")
+require("@rails/actiontext")
+ 
+// actiontext.scss
+@import "trix/dist/trix";
+ 
+// application.scss
+@import "./actiontext.scss";
+ 
+// app/models/course.rb
+class Course < ApplicationRecord
+  has_rich_text :description
+end
+ 
+// app/views/courses/_form.html.erb
+ERB
+<%= f.label :description %>
+<%= f.rich_text_area :description %>
+ 
+HAML + simple_form:
+= f.input :description, as: :rich_text_area
