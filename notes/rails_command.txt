@@ -1,0 +1,2 @@
+#create new project
+rails new rubygems --database=postgresql

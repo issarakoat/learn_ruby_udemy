@@ -1,0 +1,20 @@
+http://github.com/
+http://heroku.com/
+ 
+## AWS ##
+ 
+# All AWS C9 envments
+https://eu-central-1.console.aws.amazon.com/cloud9/home?region=us-east-1
+ 
+# Instance management
+https://console.aws.amazon.com/ec2/home?region=eu-central-1#Instances:sort=instanceId
+ 
+# Create AWS C9 environment
+https://eu-central-1.console.aws.amazon.com/cloud9/home/create
+ 
+Setting - set tabs to 2
+Ctrl+E to search file
+Alt+T - new terminal
+Alt+W - close current tab
+Ctrl+] - next tab
+Ctrl+[ - prev tab

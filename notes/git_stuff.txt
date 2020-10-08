@@ -1,0 +1,10 @@
+git config --global user.name "issarakoat"
+git config --global user.email weeravut.issarakoat@gmail.com
+ 
+git init
+git status
+git add -A
+git commit -m 'initialize app'
+# https://github.com/new
+git remote add origin https://github.com/your-github-name/your-github-repo.git
+git push -u origin master

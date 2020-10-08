@@ -1,0 +1,30 @@
+# create rails app
+rails new rubygems --database=postgresql
+cd rubygems
+bundle
+ 
+# postgresql setup
+sudo su postgres
+createuser --interactive
+ubuntu
+y 
+exit
+ 
+# bundle exec rails webpacker:install
+yarn
+yarn upgrade
+# config/webpacker.yml
+    port: 8082
+    public: https://2b8c1faf3a934c25b7e01d446161bfff.vfs.cloud9.us-east-1.amazonaws.com:8082
+bundle exec rails s -p 8080
+bin/webpack-dev-server
+ 
+# to make the server work, add the url to development.rb
+config.hosts << "2b8c1faf3a934c25b7e01d446161bfff.vfs.cloud9.us-east-1.amazonaws.com"
+ 
+# start server
+rails db:create 
+rails db:migrate
+# to run without depreciation warnings
+# RUBYOPT='-W:no-deprecated -W:no-experimental' rails server 
+rails s

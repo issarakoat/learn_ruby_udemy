@@ -1,0 +1,742 @@
+Building the MVP
+
+First commit to Github
+
+https://github.com/rormvp/corsego/commit/cebbe1e95c7258a2105179f73d1c0f6ae9e10af6
+
+Hello World. Generating a static page
+
+https://github.com/rormvp/corsego/commit/6fa0e0d22e40b5d5a4545ecdd10109eda613e777
+
+gem haml-rails - more RoR-friendly way of editing HTML
+
+https://github.com/rormvp/corsego/commit/939a008198b98c42af6c7635252aba87bc65fc21
+
+https://github.com/haml/haml-rails
+
+http://htmltohaml.com
+https://haml2erb.org
+
+gem bootstrap for styling the app
+
+https://github.com/rormvp/corsego/commit/ebe62290819bbbb4284ef48ffdd9d70b5fc9e701
+
+https://github.com/twbs/bootstrap-rubygem
+
+gem font-awesome-sass - add cool icons for styling
+
+https://github.com/rormvp/corsego/commit/531e3409c99d1fac4bee8ee86ac0e75d8e883e65
+
+https://github.com/FortAwesome/font-awesome-sass
+
+gem simple_form - better way to work with forms
+
+https://github.com/rormvp/corsego/commit/9a4030d685be9be896ed92ef86124a65672b30f8
+
+https://github.com/heartcombo/simple_form
+
+add a Courses table
+
+https://github.com/rormvp/corsego/commit/79eefae10dc193bdd50c5f686fcf15cd5a300f28
+
+https://guides.rubyonrails.org/v3.2/getting_started.html#getting-up-and-running-quickly-with-scaffolding
+
+action_text - rich text editor
+
+https://github.com/rorvmp/corsego/commit/28ee2e18adb85b8805752ffde17817971c8c1c03
+
+https://edgeguides.rubyonrails.org/action_text_overview.html
+
+gem faker and seeds.rb - add fake data to the app
+
+https://github.com/rormvp/corsego/commit/07ce75da3579cfb57d2b5c25a4e49196dc6d4515
+
+https://github.com/faker-ruby/faker
+
+gem devise for authorization (log in, log out)
+
+https://github.com/rormvp/corsego/commit/0d1b36774f9eaa6faa75e48ee2aa4ce8c941b98d
+
+https://github.com/heartcombo/devise
+
+course belongs to user - relationships
+
+https://github.com/rorvmp/corsego/commit/b9e427a64f61b67f05b0f51978b58ccb1d89c840
+
+design for notification messages
+
+https://github.com/rormvp/corsego/commit/2327a94c45e3b89b994ef1a577ad0e623968017a
+
+adding a functional navbar
+
+https://github.com/rorvmp/corsego/commit/898c377848c00ea247fa1c678bc4dabca065cd64
+
+search field in navbar
+
+https://github.com/rormvp/corsego/commit/1516db4021c2b1701ef1cc1ee2ef51ab72f919ad
+
+styling courses and home index
+
+https://github.com/rormvp/corsego/commit/726cefa5d4f84f60a2950110d46fc26aee0190e1
+
+gem friendly_id - show user friendly links
+
+https://github.com/rormvp/corsego/commit/ff4d418c3aed930e12e5b265131b08220c3b8965
+
+devise trackable (track user IP address, create users index page
+
+https://github.com/rormvp/corsego/commit/2d0787ffa85774c18b8a2efd1a1a770f7088dbac
+
+gem devise - confirmable in development pt1
+
+https://github.com/rormvp/corsego/commit/57b730522f41bd053c65fe6b46c08233f8b13cbf
+
+https://github.com/heartcombo/devise/wiki/How-To:-Add-:confirmable-to-Users
+
+https://devcenter.heroku.com/articles/sendgrid
+
+https://guides.rubyonrails.org/action_mailer_basics.html
+
+heroku addons:create sendgrid:starter
+
+gem devise - confirmable in development pt2
+
+https://github.com/rormvp/corsego/commit/beb00e6aef326f461d2efb8fedb5037699d1f5f1
+
+sendgrid - send emails in production
+
+https://github.com/rormvp/corsego/commit/521e1a592bd191aebdab1bfca5672d0a2629ff3a
+
+add more fields to courses
+
+https://github.com/rormvp/corsego/commit/ab85755925111afba6ef06382823c639bfa48276
+
+gem ransack - filter and search data in a table
+
+https://github.com/rormvp/corsego/commit/83d539133b819ad759a7da71b3cfc9d2e767dc7e
+
+gem ransack - deep search
+
+https://github.com/rormvp/corsego/commit/3967698f0930528f48752c68092cc3aa567aaef6
+
+gem ransack - advanced level. ransack search in navbar
+
+https://github.com/rormvp/corsego/commit/ff48a029d0a0f4f5ad0e001e89fe1362d09952a3
+
+gem public_activity - track all actions in the app
+
+https://github.com/rorvmp/corsego/commit/4ec2490e0f6d090c35e5f379d2d514d4c2164a3a
+
+add a footer
+
+https://github.com/rorvmp/corsego/commit/4ec2490e0f6d090c35e5f379d2d514d4c2164a3a
+
+3 Building the Authorization system
+
+gem rolify - add roles to users
+
+https://github.com/rormvp/corsego/commit/04b2dc35eb45f9b2701b590ae7861da688937987
+
+https://github.com/RolifyCommunity/rolify
+
+rails g rolify Role User
+
+gem rolify - edit user roles
+
+https://github.com/rormvp/corsego/commit/0a472d59430095f8299d70143f467843fc853b56
+
+gem rolify - using role-based access
+
+https://github.com/rormvp/corsego/commit/c9f8121aa350f5e26f3dd161bcf7ef9ff9e0f733
+
+gem pundit - role-based access (authorization) done right, use case
+
+https://github.com/varvet/pundit
+
+https://github.com/rormvp/corsego/commit/3f7311cae30cfa1d5ad081ccca2e66f726118ce0
+
+gem pundit - authorization for courses
+
+https://github.com/rormvp/corsego/commit/ef1182f294780fe9b64179113a84cc7118f3f789
+
+gem pundit - only admin can edit other users
+
+https://github.com/rormvp/corsego/commit/98c34cc4b5f00c27e8649bab941673b765877f77
+
+gem pundit - user can see links only to allowed actions
+
+https://github.com/rormvp/corsego/commit/889baee6267ddd2a8ef3749bae030524fb1f26bf
+
+4 Building up the functionality for our app
+
+gem friendly_id for users, user show view
+
+https://github.com/rormvp/corsego/commit/47d485a728554ebbe8bc5841f7a3b3097a1b2351
+
+check if user is online
+
+https://github.com/rormvp/corsego/commit/7813499543de316e86d678b26c4d3fd8a1d26e61
+
+add a Lessons table, gem friendly_id, design lessons
+
+https://github.com/rormvp/corsego/commit/1abce7ad0d6f0872a849d4f168256aa429bcaf77
+
+gem public_activity for Lessons, create Lessons inside Courses
+
+public activity
+
+https://github.com/rormvp/corsego/commit/9ef0ce68da9ed827645d58b53e8697e970080254
+
+create lessons inside courses
+
+https://github.com/rormvp/corsego/commit/81c006ee2cf663d6cbce17fe9cc9d2c80133a2fc
+
+action_text for Lessons, add breadcrumbs for lesson show
+
+no video
+
+gem pundit - authorization for Lessons
+
+https://github.com/rormvp/corsego/commit/3a13ac995b4f9d7ec9acda9b7cf055cf4bd9b3a7
+
+nested resources - lessons inside courses
+
+https://github.com/rormvp/corsego/commit/ef4399a76589e7d13ad046490b7f79135e6632ac
+
+gem pundit - authorization for Lessons create action
+
+https://github.com/rormvp/corsego/commit/5a3e49dd6d454cbc018f1844663fea4d98de41cb
+
+minor styling for edit and new views
+
+https://github.com/rormvp/corsego/commit/6a6f2065cd5387dc965cb2d0289916876bc5f527
+
+gem exception_notification - catch errors in production
+
+https://github.com/rormvp/corsego/commit/9d0ecd3c4af3afa0fc839decddd9490c9fb53714
+
+design for courses and lessons
+
+https://github.com/rormvp/corsego/commit/d7ece9f22b6a6a03a2cad33b9bce54e010b63b58
+
+gem pagy for pagination
+
+https://github.com/rormvp/corsego/commit/83d9577978e03c715c2791aeda2d53c616a7daf8
+
+add dynamic title to page tabs
+
+https://github.com/rormvp/corsego/commit/517a66907f2f71d3789840a4d381b12eb054e781
+
+scaffold Enrollments. Basic validation and design
+
+https://github.com/rormvp/corsego/commit/4b502b90ec272bbaf2d140143d096fac3e502eed
+
+Button for user to Enroll to a Course
+
+https://github.com/rormvp/corsego/commit/77c68687bf6eb5033ee34e302d8d111f1b8faf83
+
+gem pundit for Enrollments
+
+https://github.com/rormvp/corsego/commit/ac12371f0c0816a9d836244945da748c8bffb34d
+
+gem pundit - user can access his purchased Courses
+
+https://github.com/rormvp/corsego/commit/c17163857da7e5923c340d8d6e22ac3f39d7290f
+
+Work on enrollment views
+
+https://github.com/rormvp/corsego/commit/3066bb184a1d7437e17a22ae1d8d5e3b0d6c8d42
+
+Button for user to Review a Course
+
+https://github.com/rormvp/corsego/commit/10770d3b561f027ffc3d6de918d0ec7909cfe16e
+
+gem pagy for Enrollments and Users
+
+https://github.com/rormvp/corsego/commit/42db03daf7df7450680794b70e1dce9075d11d10
+
+gem friendly_id for Enrollments
+
+https://github.com/rormvp/corsego/commit/b6a590ac58fdef1761e0e525828bbddca348f182
+
+gem ransack for enrollments index
+
+https://github.com/rormvp/corsego/commit/6ec8534667d41b747208d47031f3a5c8cfbff67f
+
+Navigation for student, teacher, admin
+
+https://github.com/rormvp/corsego/commit/e58887bb961ecaef1250919285c67ebc7137a6e1
+
+Collections and Scopes + Ransack + Pagy for Courses and Enrollments
+
+https://github.com/rormvp/corsego/commit/8a5b594ee60f6766f8c997649e68b3cc3de65021
+
+Counters in header
+
+https://github.com/rormvp/corsego/commit/986fdb86859bacdec8c6134080cc70ba087b084d
+
+Calculate rating for courses
+
+https://github.com/rormvp/corsego/commit/823b5fccec2927ede630f7fe12f1186d6a0be2bd
+
+counter_cache - automatically count associated records
+
+https://github.com/rormvp/corsego/commit/43f18a902749648991d769eb69fa3e72fe890e95
+
+add counter_cache across app
+
+https://github.com/rormvp/corsego/commit/b316e3353d6aa81d85cba0bd8e36e5e927d3d255
+
+More Course styling and validation
+
+https://github.com/rormvp/corsego/commit/a8545d3e7a0c5735f2ec3bad56db4206330d17df
+
+Courses index ransack sort by price, populararity, rating, newest
+
+https://github.com/rormvp/corsego/commit/c73a2ebf0a3354e97d142ff170a801cacdbf16ed
+
+Dynamic & Personalized Homepage (Popular, New, Top Rated Courses)
+
+https://github.com/rormvp/corsego/commit/e43d600d371f81d9ba1fb691b0ce23bd2ded0fb3
+
+Move logic from controller to model using scopes
+
+https://github.com/rormvp/corsego/commit/bf9900e6b025bc4e4dcdbd4412dfd4f4b46e2724
+
+UserCourse table - track if a user has seen a lesson. Migration and setup
+
+https://github.com/rormvp/corsego/commit/dd23cece97c4b764904bf6322ae37a22fd0dc024
+
+Track User progress in a Course
+
+https://github.com/rormvp/corsego/commit/bf2042d88aded3838e6ee4590108fcbda4e47002
+
+Styling courses and lessons
+
+https://github.com/rormvp/corsego/commit/1c807e4f34bd35158ee99e597bc4c8ac380df32e
+
+Pluralization for course show
+
+https://github.com/rormvp/corsego/commit/92eac1dcd01b99b10268a894be1f2234d3a7ad07
+
+Validation for Destroy with dependent records (restrict_with_error, nullify, destroy)
+
+https://github.com/rormvp/corsego/commit/20ac19050b3152214a3c871e200896f25c2458a1
+
+Lesson show - navigation between lessons in a course
+
+https://github.com/rormvp/corsego/commit/96d19a6593edf3a63f8260ec647ea8e7c9d0c932
+
+gem chartkick and groupdate - add charts
+
+https://github.com/rormvp/corsego/commit/694c9c337070e78cb74186178c3e174d4c87ebf0
+
+load charts without timeouts
+
+https://github.com/rormvp/corsego/commit/9f46052358d86843b209072a549a99aa14e7d640
+
+namespace charts in routes, group by sum
+
+https://github.com/rormvp/corsego/commit/5eef9ed453c3e47757b1283f68e6645b4e11a993
+
+count impressions with increment method
+
+https://github.com/rormvp/corsego/commit/e2e45c26688cf9422489536fde4f6f1c218fa251
+
+custom buttons to publish or approve a course
+
+https://github.com/rormvp/corsego/commit/0ee66acfba270f8be889bb663ff36e549386300b
+
+complex validation who can see a course show
+
+https://github.com/rormvp/corsego/commit/960e59571bafa49bf917c2ea6b613ff3783bb28e
+
+gem public_activity - polymorphic links with nested resources
+
+https://github.com/rormvp/corsego/commit/e2c088d6dc4118f3fd79d7369e675d9f2016088b
+
+application_helper for conditional styling
+
+https://github.com/rormvp/corsego/commit/3e81a8ff83a0a828920209fa0dbd04af66f56722
+
+gem rails-erd to generate relationship-diagrams automatically
+
+https://github.com/rormvp/corsego/commit/dee103234da1b4e9a9c067943c19f5967d776da6
+
+better views for not logged in users
+
+https://github.com/rormvp/corsego/commit/0b907f940d8b031c7323ac493cf38f8808736c86
+
+link_to courses with ransack search params
+
+https://github.com/rormvp/corsego/commit/3bb089a94cf691c182c08fb1d13c516b5beb2b84
+
+course-specific charts and analytics, more advanced grouping
+
+https://github.com/rormvp/corsego/commit/02279764df320bd1100789efc8ad3341ef21bc69
+
+update course_policy and view
+
+https://github.com/rormvp/corsego/commit/86348fef1585de285d5af610dbc03d22545735ee
+
+5 Sorting records and persisting changes in the database
+
+gem ranked_model - give lessons inside a course a number
+
+https://github.com/rormvp/corsego/commit/83a43b39d7f96b222ad929bbba8f528775fcd76c
+
+link to previous and next lesson in lesson show
+
+https://github.com/rormvp/corsego/commit/7a9eb0517ca600e86a7bb875c8b19628ef815a80
+
+jquery-ui sortable - make lessons sortable and persist changes
+
+https://github.com/rormvp/corsego/commit/25bf08807c9f07341236381d5713f7b8b5590476
+
+6 Active storage and Action text - everything you need to know
+
+credentials and secret keys PART 1
+
+https://gist.githubusercontent.com/yshmarov/758a04798c3400cf125de27659dab43e/raw/33439c06ac2bb91c434168d124f84a3468c3febe/credentials
+
+gem aws-sdk-s3, configure aws s3 bucket storage, add avatar to courses
+
+https://github.com/rormvp/corsego/commit/44da4ac1f66dc3cf7b5942e69551e51caa103ba8
+
+gem active_storage_validations. validates course avatar. display avatar in course partial
+
+https://github.com/igorkasyanchuk/active_storage_validations
+
+https://github.com/rormvp/corsego/commit/b0ec9db17e6903c9e7495498a8954cafe55cb09c
+
+gem image_processing to fix action_text displaying images, S3 bucket CORS settings to work with action_text
+
+https://github.com/rormvp/corsego/commit/be4f3b12dd8ce7788059822e42064c5890103e5b
+
+action_text attachment restrictions, download and display
+
+https://github.com/rormvp/corsego/commit/7f12b45e5f2a7a93f12017e2504c7fc5c0d4da47
+
+action_text restrict attachments, more validations for course and lesson
+
+https://github.com/rormvp/corsego/commit/e0b11fbb4d123d618f9945cf80ca9230271a8a1d
+
+video attachment and preview with active_storage and HTML5
+
+https://github.com/rormvp/corsego/commit/3e129fd97cf80ef4202ab482d5a7e653c4650b00
+
+styling lessons, video validation
+
+https://github.com/rormvp/corsego/commit/3d4e976b8d253c65d5a7bc712687ed942f0b3790
+
+deleting attachments (video and video_thumbnail)
+
+https://github.com/rormvp/corsego/commit/b64bceebb4ee84ce2c4fc0c018bba7a274a3c416
+
+action_text - allow file upload, add video preview to blob
+
+https://github.com/rormvp/corsego/commit/0e48726642ed1d6693065d77d3b3a9460dfe8577
+
+action_text - play audio with HTML5
+
+https://github.com/rormvp/corsego/commit/8d769fa2407052e7e6acf3479820df326543a5d3
+
+video.js player integration
+
+https://github.com/rormvp/corsego/commit/ddae912cc6c230cac9fc3c0c56a1da277aba2dd0
+
+https://videojs.com/
+
+simple_form for rich_text_area (actiontext)
+
+https://github.com/rormvp/corsego/commit/a3a95b901fbfbd775aede1c28bd0f71dc7ec4319
+
+https://bendyworks.com/blog/rails-6-action-text
+
+action_text youtube embeds
+
+inspiration:
+
+https://www.youtube.com/watch?v=2iGBuLQ3S0c
+
+code:
+
+https://github.com/rormvp/corsego/commit/f2b4593f785f4b12cbe95bcdd33e3417a4e309c9
+
+guide:
+
+https://gist.github.com/yshmarov/90377ba51f14df09df03e6442cd7412e
+
+example video for embedding:
+
+https://www.youtube.com/watch?v=bn9R-5gIrNA&t
+
+7 Integrating nested comments into the application
+
+nested resources - comments inside lessons
+
+https://github.com/rormvp/corsego/commit/3b3b66021a359bd6469bb14e1a6ff7f8ceeae336
+
+counter_cache for comments, method to delete comment
+
+https://github.com/rormvp/corsego/commit/4026aa0d90db2a00f013b636db0f30c49499ecaa
+
+public_activity for comments
+
+https://github.com/rormvp/corsego/commit/b2dc3386cecc5c57964b28d8638bcec3afa8f789
+
+pundit authorization for destroying a comment
+
+https://github.com/rormvp/corsego/commit/2e4ed2571250942fad0e61e589ab570fc4b18ff4
+
+add counter_cache for user_lessons to lessons and users
+
+https://github.com/rormvp/corsego/commit/c1b833e065853be2168f587b6897242fa0762dcd
+
+8 Preparing for production
+
+gem recaptcha with devise - no bot signups
+
+https://www.google.com/recaptcha/admin/create
+
+https://github.com/heartcombo/devise/wiki/How-To:-Use-Recaptcha-with-Devise
+
+https://github.com/ambethia/recaptcha
+
+https://github.com/rormvp/corsego/commit/24271ea4a2d62555925930ff542b4c5578bbe687
+
+add recaptcha keys to credentials
+
+https://github.com/rormvp/corsego/commit/4d534c48d525d4295edb8245c10bffbd438646af
+
+add google analytics
+
+https://analytics.google.com/
+
+https://github.com/rormvp/corsego/commit/6fceb5678ce2d4d94a966627fb824fd0d53a94b6
+
+styling app, adding logo and thumbnail
+
+https://github.com/rormvp/corsego/commit/22329c39316eef08d226b098f0c5d757363aa76a
+
+downgrade jquery to 3.4.1 to make bootstrap navbar dropdown work on small screen
+
+https://github.com/rormvp/corsego/commit/269cd93a375da8840e22676fa05b385e7adc23dd
+
+yarn remove video.js - remove library from our app
+
+https://github.com/rormvp/corsego/commit/e2eb42ea224a370e9071b11516bb0a5d0bc050d6
+
+disable video download (disable rightclick on video)
+
+https://github.com/rormvp/corsego/commit/fc5dd92aaa81eb5bb8bad18726f14d2d7a396654
+
+privacy_policy and SEO tags
+
+https://github.com/rormvp/corsego/commit/348e8e7b0bd5c90ad1701fa3222b9e2ea9903aad
+
+adding a licence to our github repository
+
+https://github.com/rormvp/corsego/commit/cf3a93a4fe9d836e7163bedd209cabeb7a418bf6
+
+beautify devise views
+
+https://github.com/rormvp/corsego/commit/b6d04282abe0535683c2c803d7ac1ab257578458
+
+Add a sitemap for Google and Bing search
+
+https://www.xml-sitemaps.com/
+
+https://search.google.com
+
+https://www.bing.com/webmaster/home/mysites
+
+https://github.com/rormvp/corsego/commit/0961f0ac826e0f5c4da2ba26b8b362cd803cff3e
+
+Log in with google, facebook, github (omniauth)
+
+gem omniauth-google-oauth2 - log in with google
+
+https://github.com/rormvp/corsego/commit/1e0ebec80f83dc543a6c72cb90888bc7d712d2a1
+
+import omniauth user personal data
+
+https://github.com/rormvp/corsego/commit/da9f80071dabd4cbb0f3a51419f104508b147206
+
+gem omniauth-github - log in with github
+
+https://github.com/rormvp/corsego/commit/d7e56b02ea370206491e0c1c5854d1841ca520c3
+
+different credentials for different environments. Github
+
+https://github.com/rormvp/corsego/commit/4d106db56b6db6d6431f04f973e4f47348215a41
+
+log in with facebook
+
+https://github.com/rormvp/corsego/commit/db2997a8ce4c134d19932954f4831aeda65e963e
+
+PRO FEATURE: Select or Create Tags with selectize js
+
+selectize.js - course has many tags through course_tags
+
+https://github.com/rormvp/corsego/commit/af12f1a60ed100a796b0bfae433a550c7c97f02b
+
+two ways to search courses by tags with ransack
+
+https://github.com/rormvp/corsego/commit/ed4ba9e78df84e4d7bd7ca265670620be0d170e2
+
+link to current page with params (for searching tags)
+
+https://github.com/rormvp/corsego/commit/04ce3294a79923451e55ed3282b37f24b36e2913
+
+selectize.js - select or create tag
+
+https://github.com/rormvp/corsego/commit/c88e5fc2eaba649cb5b4c4a7ddefae591196dce5
+
+admin can manage and delete tags
+
+https://github.com/rormvp/corsego/commit/9fd1f42173b3676055855b7b1f3e34063c0d096a
+
+list similar courses in course show based on tags
+
+https://github.com/rormvp/corsego/commit/635078580c7c2f0f02f966ae9a35b444dd74afec
+
+PRO FEATURE: PDF Certificate of Completion with wicked_pdf
+
+gem wicked_pdf - ability to generate PDF from HTML
+
+https://github.com/rormvp/corsego/commit/3d64691dec55e29ca036cbff4ccd128f23478362
+
+enrollment completion certificate and styling
+
+https://github.com/rormvp/corsego/commit/b8d497d6353687a6c075fd78bffec9bb55b560a0
+
+pdf.html - remove unused code, enrollments index - link to certificate
+
+https://github.com/rormvp/corsego/commit/16d03e61e8cdb1b7341ff3945f3cc71e3d921dfa
+
+different pdf gem for development and production
+
+https://github.com/rormvp/corsego/commit/ec8f61ef760359978403ff4f48a093a8273fce17
+
+styling pdf certificate of completion
+
+https://github.com/rormvp/corsego/commit/d2d5c192e403030d0a137214d7923a2d1526861c
+
+certificate of completion only for completed courses
+
+https://github.com/rormvp/corsego/commit/608be60cc8adcd032d4976ea2c214388e951944a
+
+helper logic to view certificate of completion
+
+https://github.com/rormvp/corsego/commit/b534f878d832ebaa968b4ef32d92408b968d7b1a
+
+PRO FEATURE: Multistep forms with gem WICKED
+
+gem wicked for multistep forms
+
+https://github.com/rormvp/corsego/commit/0ad106b6bf7c8ba175c81f5b32c4e586880d3a75
+
+gem wicked - nest course_wizard inside courses
+
+https://github.com/rormvp/corsego/commit/7b8066baa125e94d2605103541b8d883e9a7d5df
+
+gem wicked - edit and update functionality
+
+https://github.com/rormvp/corsego/commit/db89448009a5904e0c537baccd3939f838b03b5d
+
+gem wicked - styling and authorization
+
+https://github.com/rormvp/corsego/commit/a73c11bab003cefd542107b0ef7fc36ab58ab641
+
+layout for wizard steps, remove course edit action
+
+https://github.com/rormvp/corsego/commit/014dc1f85143b599b7726f60851a900258436ec8
+
+https://railsguides.net/rails-nested-layouts/
+
+styling wizard progress navigation, remove fields course form
+
+https://github.com/rormvp/corsego/commit/234695960ac7871bc88d9c2abae3aeb36da09600
+
+PRO FEATURE: ActionMailer - send outbound emails
+
+email confirmation when a user enrolled to a course
+
+https://github.com/rormvp/corsego/commit/330be85ba2a8e5c29868daff243f0ae88d82e977
+
+email to teacher when a user enrolls to his course
+
+https://github.com/rormvp/corsego/commit/42090db6bce1aed38ff48741db210898207594f0
+
+user_mailer - send all admins emails when a new user registers
+
+https://github.com/rormvp/corsego/commit/7b89f51a6d1c58cea54beed8286a7fe4e49547d5
+
+PRO FEATURE: gem cocoon - one form to edit and create multiple lessons
+
+install gem cocoon. edit lessons in course form
+
+https://github.com/rormvp/corsego/commit/a6544db10abb8048ff2745d6a3bd2a01f46acf07
+
+https://github.com/nathanvda/cocoon
+
+https://www.npmjs.com/package/cocoon-js
+
+https://stackoverflow.com/questions/57974863/how-to-use-cocoon-gem-in-rails-6
+
+Payments, working with money, business logic
+
+payments - business logic for user income and expences
+
+https://github.com/rormvp/corsego/commit/b0a5530e89b2e0880886d7e178a34fe294c28eb6
+
+stripe payments part 1
+
+https://dashboard.stripe.com/test/developers
+
+https://github.com/stripe/stripe-ruby
+
+https://stripe.com/docs/testing
+
+https://github.com/rormvp/corsego/commit/277630d053ab934e2061744b86765d3252a45765
+
+stripe payments part 2
+
+https://github.com/rormvp/corsego/commit/81eda891f51bf26289f16d4ae084d10586a9d2d3
+
+Fixes and Adjustments
+
+upgrading Rails and troubleshooting active_storage issues
+
+https://github.com/rormvp/corsego/commit/64534dad67541c738940ed09a9b47653c59cacd7
+
+downgrading Rails and fixing selectize issues
+
+https://github.com/rormvp/corsego/commit/fb91adfad997a4b214686b52eef57e4579b75141
+
+downgrading Rails and fixing active_storage issues
+
+https://github.com/rormvp/corsego/commit/b33fd0a4228a9395b26d454d8c809aca55829d03
+
+Update to rails 6.0.3
+
+https://github.com/rormvp/corsego/commit/fb7bc8dc908dfeeba95d6d322e6b8e0fcfff45e8
+
+gem public_activity for user
+
+https://github.com/rormvp/corsego/commit/4dbdf323b7affd7a5f1b9f79dbb1ddaa0855878c
+
+footer always on bottom
+
+https://github.com/rormvp/corsego/commit/5c3351b3616da2b89926a84f4b4f9778278118e6
+
+renaming a column (short- to marketing- description)
+
+https://github.com/rormvp/corsego/commit/d302efc33ac317d333daa2f25f76a6c5f900f348
+
+If you add a custom domain on heroku, it will by default work on HTTP (not HTTPS).
+
+To make HTTPS work you should move to a paid dyno (at least $7/month). To set up HTTPS (SSL) in your Rails app you should go to production.rb file and set `config.force_ssl = true`.
+
+https://github.com/rormvp/corsego/commit/1420fd87c08d00053a44ab8c5777f0ac5544fc43

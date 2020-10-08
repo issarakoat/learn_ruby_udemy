@@ -1,0 +1,7 @@
+# creating the first page
+rails g controller home index
+# Add the following line to routes.rb
+root 'home#index'
+ 
+git add -A
+git commit -m 'add home index controller'

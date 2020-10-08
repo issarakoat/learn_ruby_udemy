@@ -1,0 +1,18 @@
+# installing heroku
+npm uninstall -g heroku-cli
+sudo snap install heroku --classic
+npm install -g heroku
+heroku create
+git remote -v
+git push heroku master
+heroku run rake db:migrate
+ 
+# if you want to connect to an existing heroku app
+heroku git:remote -a yourappnamegoeshere
+ 
+# see logs
+heroku logs --tail
+# to run console activerecord commands
+heroku run rails c
+# restart
+heroku restart
