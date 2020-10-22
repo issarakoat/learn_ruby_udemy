@@ -37,4 +37,4 @@ gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
 gem 'faker', git: 'https://github.com/stympy/faker'
 gem 'devise'
-
+gem 'friendly_id', '~> 5.4.0'
