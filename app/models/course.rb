@@ -1,4 +1,3 @@
-  
 class Course < ApplicationRecord
   validates :title, :short_description, :language, :price, :level,  presence: true
   validates :description, presence: true, length: { :minimum => 5 }
@@ -22,5 +21,8 @@ class Course < ApplicationRecord
   def self.levels
     LEVELS.map { |level| [level, level] }
   end
+
+  include PublicActivity::Model
+  tracked owner: Proc.new{ |controller, model| controller.current_user }
 
 end
