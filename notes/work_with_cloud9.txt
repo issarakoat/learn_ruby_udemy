@@ -18,3 +18,8 @@ Alt+T - new terminal
 Alt+W - close current tab
 Ctrl+] - next tab
 Ctrl+[ - prev tab
+ctrl+D - delete line
+shift+ctrl+D - Duplicate Selection
+shift+alt+UP - Copy Lines Up
+shift+alt+DOWN - Copy Lines Down
+alt+ctrl+DOWN - Add Cursor Below
