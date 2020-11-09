@@ -1,4 +1,3 @@
-  
 .card
   .card-header
     .fa.fa-graduation-cap
@@ -8,6 +7,9 @@
   .card-footer
     .text-center
       = number_to_currency(course.price)
+  .card-footer
+    .fa.fa-book
+    = course.lessons.count
   .card-footer
     .row
       .col-md-6
