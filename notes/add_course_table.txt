@@ -10,5 +10,5 @@ rake db:migrate
 validates :title,  presence: true
 validates :description, presence: true, length: { :minimum => 5 }
 
-rails g migration AddUserToCou
-rake db:drop db:create db:migrate
+rails g migration AddUserToCourses user:belongs_to
+rake db:drop db:create db:migrate db:seed

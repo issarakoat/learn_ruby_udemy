@@ -2,7 +2,7 @@
   %a.navbar-brand{:href => "/"}
     /= image_tag 'logo.png', size: '20x20', alt: "logo", class: 'rounded'
     .fa.fa-graduation-cap
-    Corsego
+    RubyGem
   %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarSupportedContent", "data-toggle" => "collapse", :type => "button"}
     %span.navbar-toggler-icon
   #navbarSupportedContent.collapse.navbar-collapse
@@ -25,6 +25,10 @@
           = link_to users_path, class: 'nav-link' do
             .fa.fa-users
             Users
+        %li.nav-item{class: "#{'active font-weight-bold' if current_page?(enrollments_path)}"}
+          = link_to enrollments_path, class: 'nav-link' do
+            .fa.fa-lock-open
+            Enrollments
 
       /SEARCH IN NAVBAR
       = search_form_for @ransack_courses, as: :courses_search, url: courses_path do |f|
