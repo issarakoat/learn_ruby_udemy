@@ -3,6 +3,8 @@ npm uninstall -g heroku-cli
 sudo snap install heroku --classic
 npm install -g heroku
 heroku create
+#if get "IP Address Mismatch on signing into Heroku CLI"
+  try 'heroku login -i'
 git remote -v
 
 git push heroku master
