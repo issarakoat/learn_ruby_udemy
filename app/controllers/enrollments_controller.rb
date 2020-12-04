@@ -1,9 +1,12 @@
+  
 class EnrollmentsController < ApplicationController
   before_action :set_enrollment, only: [:show, :edit, :update, :destroy]
   before_action :set_coruse, only: [:new, :create]
 
   def index
-    @enrollments = Enrollment.all
+    #@enrollments = Enrollment.all
+    @pagy, @enrollments = pagy(Enrollment.all)
+
     authorize @enrollments
   end
 
@@ -56,7 +59,7 @@ class EnrollmentsController < ApplicationController
     end
 
     def set_enrollment
-      @enrollment = Enrollment.find(params[:id])
+      @enrollment = Enrollment.friendly.find(params[:id])
     end
 
     def enrollment_params
